@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let feet = +prompt("Nhập foot: ");
+  let meter = +prompt("Nhập meter: ");
+  function footToMeter() {
+      toMeter = 0.305 * feet;
+      return toMeter;
+  }
+  function meterToFoot() {
+      toFeet = 3.279 * meter;
+      return toFeet;
+  }
+  document.write(feet + " foot = " + footToMeter() + " meter" + "<br/>")
+  document.write(meter + " meter = " + meterToFoot() + " foot")
+</script>
+</body>
+</html>
